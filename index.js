@@ -6,7 +6,7 @@ const userRouter = require("./routes/user");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
-console.log("env", process.env.DB_PASSWORD);
+
 
 // db connection
 
